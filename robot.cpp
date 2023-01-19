@@ -6,7 +6,6 @@
 #include<dos.h>
 #include<chrono>
 #include<thread>
-// Function prototypes
 int randNumGen(int upper, int lower);
 int getSeed();
 void guessNumber();
@@ -32,10 +31,6 @@ int randNumGen(int upper, int lower)
 
 }
 
-// This function prompts the user to enter a seed (a whole number) equal to zero (0) or 
-// within the range 1000..4000. If the user enters a valid value the function returns 
-// the value. Otherwise it keeps asking for the seed.
-// Use a DO-WHILE-LOOP to implement this function
 
 int getSeed()
 {
